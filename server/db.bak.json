@@ -39,168 +39,206 @@
             "first_name": "Pedro",
             "last_name": "Pedraza",
             "gender": "Male"
-        }
-    ],
-    "heroes": [
-        {
-            "id": "dc-batman",
-            "superhero": "Batman",
-            "publisher": "DC Comics",
-            "alter_ego": "Bruce Wayne",
-            "first_appearance": "Detective Comics #27",
-            "characters": "Bruce Wayne"
         },
         {
-            "id": "dc-superman",
-            "superhero": "Superman",
-            "publisher": "DC Comics",
-            "alter_ego": "Kal-El",
-            "first_appearance": "Action Comics #1",
-            "characters": "Kal-El"
+            "id": 6,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-flash",
-            "superhero": "Flash",
-            "publisher": "DC Comics",
-            "alter_ego": "Jay Garrick",
-            "first_appearance": "Flash Comics #1",
-            "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+            "id": 7,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-green",
-            "superhero": "Green Lantern",
-            "publisher": "DC Comics",
-            "alter_ego": "Alan Scott",
-            "first_appearance": "All-American Comics #16",
-            "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+            "id": 8,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-arrow",
-            "superhero": "Green Arrow",
-            "publisher": "DC Comics",
-            "alter_ego": "Oliver Queen",
-            "first_appearance": "More Fun Comics #73",
-            "characters": "Oliver Queen"
+            "id": 9,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-wonder",
-            "superhero": "Wonder Woman",
-            "publisher": "DC Comics",
-            "alter_ego": "Princess Diana",
-            "first_appearance": "All Star Comics #8",
-            "characters": "Princess Diana"
+            "id": 10,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-martian",
-            "superhero": "Martian Manhunter",
-            "publisher": "DC Comics",
-            "alter_ego": "J\"onn J\"onzz",
-            "first_appearance": "Detective Comics #225",
-            "characters": "Martian Manhunter"
+            "id": 11,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-robin",
-            "superhero": "Robin/Nightwing",
-            "publisher": "DC Comics",
-            "alter_ego": "Dick Grayson",
-            "first_appearance": "Detective Comics #38",
-            "characters": "Dick Grayson"
+            "id": 12,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-blue",
-            "superhero": "Blue Beetle",
-            "publisher": "DC Comics",
-            "alter_ego": "Dan Garret",
-            "first_appearance": "Mystery Men Comics #1",
-            "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+            "id": 13,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "dc-black",
-            "superhero": "Black Canary",
-            "publisher": "DC Comics",
-            "alter_ego": "Dinah Drake",
-            "first_appearance": "Flash Comics #86",
-            "characters": "Dinah Drake, Dinah Lance"
+            "id": 14,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-spider",
-            "superhero": "Spider Man",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Peter Parker",
-            "first_appearance": "Amazing Fantasy #15",
-            "characters": "Peter Parker"
+            "id": 15,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-captain",
-            "superhero": "Captain America",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Steve Rogers",
-            "first_appearance": "Captain America Comics #1",
-            "characters": "Steve Rogers"
+            "id": 16,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-iron",
-            "superhero": "Iron Man",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Tony Stark",
-            "first_appearance": "Tales of Suspense #39",
-            "characters": "Tony Stark"
+            "id": 17,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-thor",
-            "superhero": "Thor",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Thor Odinson",
-            "first_appearance": "Journey into Myster #83",
-            "characters": "Thor Odinson"
+            "id": 18,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-hulk",
-            "superhero": "Hulk",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Bruce Banner",
-            "first_appearance": "The Incredible Hulk #1",
-            "characters": "Bruce Banner"
+            "id": 19,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-wolverine",
-            "superhero": "Wolverine",
-            "publisher": "Marvel Comics",
-            "alter_ego": "James Howlett",
-            "first_appearance": "The Incredible Hulk #180",
-            "characters": "James Howlett"
+            "id": 20,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-daredevil",
-            "superhero": "Daredevil",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Matthew Michael Murdock",
-            "first_appearance": "Daredevil #1",
-            "characters": "Matthew Michael Murdock"
+            "id": 21,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-hawkeye",
-            "superhero": "Hawkeye",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Clinton Francis Barton",
-            "first_appearance": "Tales of Suspense #57",
-            "characters": "Clinton Francis Barton"
+            "id": 22,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-cyclops",
-            "superhero": "Cyclops",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Scott Summers",
-            "first_appearance": "X-Men #1",
-            "characters": "Scott Summers"
+            "id": 23,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         },
         {
-            "id": "marvel-silver",
-            "superhero": "Silver Surfer",
-            "publisher": "Marvel Comics",
-            "alter_ego": "Norrin Radd",
-            "first_appearance": "The Fantastic Four #48",
-            "characters": "Norrin Radd"
+            "id": 24,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
+        },
+        {
+            "id": 25,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
+        },
+        {
+            "id": 26,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
+        },
+        {
+            "id": 27,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
+        },
+        {
+            "id": 28,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
+        },
+        {
+            "id": 29,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
+        },
+        {
+            "id": 30,
+            "email": "pedropedraza@gmail.com",
+            "isActive": true,
+            "first_name": "Pedro",
+            "last_name": "Pedraza",
+            "gender": "Male"
         }
     ]
 }
