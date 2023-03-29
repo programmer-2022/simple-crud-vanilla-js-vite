@@ -13,7 +13,6 @@ import {
  */
 export const saveUser = async (userLike) => {
   const user = new User(userLike);
-
   const validation = validationUserForm(user);
   if (validation.status === "error") {
     showAlert({
@@ -24,15 +23,9 @@ export const saveUser = async (userLike) => {
     });
     return;
   }
-
   const userToSave = await userModelToLocalhost(user);
-
-  if (user.id) {
-    throw "no implementada la actualizacion";
-    return;
-  }
-  const updateUser = await createUser(userToSave);
-  return updateUser;
+  if (user.id) return await updateUser(userToSave);
+  return await createUser(userToSave);
 };
 
 /**
@@ -47,4 +40,19 @@ const createUser = async (user) => {
   });
   const newUser = await res.json();
   return newUser;
+};
+
+/**
+ * @param { Like<User> } user
+ */
+const updateUser = async (user) => {
+  const url = `${import.meta.env.VITE_SERVER_BASE_URL}/users/${user.id}`;
+  const res = await fetch(url, {
+    method: "PATCH",
+    body: JSON.stringify(user),
+    headers: { "Content-Type": "application/json" },
+  });
+  const updatedUser = await res.json();
+  console.log({ updatedUser });
+  return updatedUser;
 };
