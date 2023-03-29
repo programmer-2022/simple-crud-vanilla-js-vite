@@ -17,12 +17,15 @@ export const validationUserForm = (user) => {
 
   const msg = Object.values(errorMsg);
   if (msg.length) {
-    const errorFields 
-      = msg.join(', ')
-           .concat(` ${msg.length > 1 ? 'are' : 'is'} [REQUIRED]`);
+    const errorFields = msg
+      .join(", ")
+      .concat(` ${msg.length > 1 ? "are" : "is"} [REQUIRED]`);
     return {
-      message: errorFields
+      status: "error",
+      message: errorFields,
     };
   }
-  return true;
+  return {
+    status: "success",
+  };
 };

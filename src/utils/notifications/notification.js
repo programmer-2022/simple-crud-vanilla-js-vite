@@ -11,7 +11,7 @@ const ICONS = {
 };
 
 const showAlert = (params) => {
-  const { title, text, icon, timer=1500 } = params;
+  const { title, text, icon, timer = 1500 } = params;
   Swal.fire({
     title,
     text,

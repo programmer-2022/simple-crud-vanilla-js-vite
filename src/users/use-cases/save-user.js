@@ -12,24 +12,23 @@ import {
  * @param { Like<User> } userLike
  */
 export const saveUser = async (userLike) => {
-  
   const user = new User(userLike);
 
   const validation = validationUserForm(user);
-  if(validation.message) {
+  if (validation.status === "error") {
     showAlert({
       title: TITLE_MSG.ERROR,
-      text: error,
+      text: validation.message,
       icon: ICONS.ERROR,
-      timer: 2500
+      timer: 2500,
     });
     return;
-  } 
+  }
 
   const userToSave = await userModelToLocalhost(user);
 
   if (user.id) {
-    throw "no implementada";
+    throw "no implementada la actualizacion";
     return;
   }
   const updateUser = await createUser(userToSave);
