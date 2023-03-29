@@ -2,7 +2,7 @@ import { User } from "../models/user-model";
 import { TITLE_MSG, ICONS } from "../../utils/notifications/notification";
 import { validationUserForm } from "../use-cases/validation-user-form";
 
-const USER_NOTIFICATION = {
+export const USER_NOTIFICATION = {
   SAVE_SUCCESS: "User saved successfully",
   FAILED_TO_SAVE: "Error saving a user",
 };
@@ -17,8 +17,8 @@ export const hasUser = (user) => {
       title: TITLE_MSG.SUCCESS,
       text: USER_NOTIFICATION.SAVE_SUCCESS,
       icon: ICONS.SUCCESS,
-    }; 
-  } 
+    };
+  }
 };
 
 /**
