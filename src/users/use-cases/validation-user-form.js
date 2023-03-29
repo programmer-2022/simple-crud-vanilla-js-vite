@@ -1,9 +1,4 @@
 import { User } from "../models/user-model";
-import {
-  TITLE_MSG,
-  ICONS,
-  showAlert,
-} from "../../utils/notifications/notification";
 
 /**
  *
@@ -14,18 +9,20 @@ export const validationUserForm = (user) => {
   const { firstName, lastName, email, gender, isActive } = user;
   let errorMsg = {};
 
-  if (!firstName) errorMsg["FirstName"] = "Firstname is required";
-  if (!lastName) errorMsg["LastName"] = "Lastname is required";
-  if (!email) errorMsg["Email"] = "Email is required";
-  if (!gender) errorMsg["Gender"] = "Gender is required";
-  if (!isActive) errorMsg["isActive"] = "Active is required";
+  if (!firstName) errorMsg["FirstName"] = "Firstname";
+  if (!lastName) errorMsg["LastName"] = "Lastname";
+  if (!email) errorMsg["Email"] = "Email";
+  if (!gender) errorMsg["Gender"] = "Gender";
+  if (!isActive) errorMsg["isActive"] = "Active";
 
-  console.table(errorMsg);
-  if (Object.values(errorMsg).length) {
-    showAlert({
-      title: TITLE_MSG.ERROR,
-      text: errorMsg,
-      icon: ICONS.ERROR,
-    });
+  const msg = Object.values(errorMsg);
+  if (msg.length) {
+    const errorFields 
+      = msg.join(', ')
+           .concat(` ${msg.length > 1 ? 'are' : 'is'} [REQUIRED]`);
+    return {
+      message: errorFields
+    };
   }
+  return true;
 };

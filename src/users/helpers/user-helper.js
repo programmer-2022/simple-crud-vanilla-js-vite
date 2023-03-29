@@ -17,13 +17,8 @@ export const hasUser = (user) => {
       title: TITLE_MSG.SUCCESS,
       text: USER_NOTIFICATION.SAVE_SUCCESS,
       icon: ICONS.SUCCESS,
-    };
-  }
-  return {
-    title: TITLE_MSG.ERROR,
-    text: USER_NOTIFICATION.FAILED_TO_SAVE,
-    icon: ICONS.ERROR,
-  };
+    }; 
+  } 
 };
 
 /**
