@@ -21,9 +21,23 @@ const loadPreviousPage = async () => {
   state.currentPage -= 1;
 };
 
-// TODO: Implementar
-const onUserChanged = async () => {
-  throw new Error("No implementado");
+/**
+ *
+ * @param { User } updatedUser
+ */
+const onUserChanged = async (updatedUser) => {
+  let wasFound = false;
+
+  state.users = state.users.map((user) => {
+    if (user.id === updatedUser.id) {
+      return updatedUser;
+    }
+    return user;
+  });
+
+  if (state.users.length < 10 && !wasFound) {
+    state.users.push(updatedUser);
+  }
 };
 
 // TODO: Implementar
