@@ -22,14 +22,15 @@ export const UsersApp = async (element) => {
   renderAddButton(element);
   renderModal(element, async (userLike) => {
     const user = await saveUser(userLike);
+    usersStore.onUserChanged(user);
+
     if (user) {
       showAlert({
         title: TITLE_MSG.SUCCESS,
         text: USER_NOTIFICATION.SAVE_SUCCESS,
         icon: ICONS.SUCCESS,
       });
-      renderTable();
     }
-    //usersStore.onUserChanged(user);
+    renderTable();
   });
 };

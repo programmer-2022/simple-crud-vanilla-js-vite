@@ -1,5 +1,6 @@
 import { User } from "../models/user-model";
 import { userModelToLocalhost } from "../mappers/user-to-localhost.map";
+import { localHostUserToModel } from "../mappers/localhost-user.map";
 import { validationUserForm } from "./validation-user-form";
 import {
   TITLE_MSG,
@@ -23,9 +24,16 @@ export const saveUser = async (userLike) => {
     });
     return;
   }
+
   const userToSave = await userModelToLocalhost(user);
-  if (user.id) return await updateUser(userToSave);
-  return await createUser(userToSave);
+  let userUpdated;
+
+  if (user.id) {
+    userUpdated = await updateUser(userToSave);
+  } else {
+    userUpdated = await createUser(userToSave);
+  }
+  return localHostUserToModel(userUpdated);
 };
 
 /**
@@ -53,6 +61,5 @@ const updateUser = async (user) => {
     headers: { "Content-Type": "application/json" },
   });
   const updatedUser = await res.json();
-  console.log({ updatedUser });
   return updatedUser;
 };
