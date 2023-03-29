@@ -1,5 +1,5 @@
 import { localHostUserToModel } from "../mappers/localhost-user.map";
-
+import { User } from "../models/user-model";
 /**
  *
  * @param {Number} page
