@@ -239,6 +239,14 @@
       "first_name": "Pedro",
       "last_name": "Pedraza",
       "gender": "Male"
+    },
+    {
+      "email": "km.music92@gmail.com",
+      "isActive": true,
+      "first_name": "Cesar",
+      "last_name": "Camilo",
+      "gender": "Masculino",
+      "id": 31
     }
   ]
 }
